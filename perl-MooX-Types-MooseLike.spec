@@ -58,6 +58,11 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Tue Dec 23 2014 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 0.27-1.1
+- Adapt for AL/LL
+- Add package support URL
+- Import source package FC21/perl-MooX-Types-MooseLike-0.27-1.fc21
+
 * Fri Aug 29 2014 Petr Pisar <ppisar@redhat.com> - 0.27-1
 - 0.27 bump
 
