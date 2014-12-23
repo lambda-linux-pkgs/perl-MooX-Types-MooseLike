@@ -25,6 +25,9 @@ BuildRequires:  perl(warnings)
 Requires:       perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 See MooX::Types::MooseLike::Base for a list of available base types. Its source
 also provides an example of how to build base types, along with both
 parameterizable and non-parameterizable.
