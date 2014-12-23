@@ -1,6 +1,8 @@
+%define _buildid .1
+
 Name:           perl-MooX-Types-MooseLike
 Version:        0.27
-Release:        1%{?dist}
+Release:        1%{?_buildid}%{?dist}
 Summary:        Some Moosish types and a type builder
 License:        GPL+ or Artistic
 URL:            http://search.cpan.org/dist/MooX-Types-MooseLike/
